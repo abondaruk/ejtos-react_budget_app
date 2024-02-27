@@ -11,8 +11,8 @@ const ExpenseList = () => {
                 <tr>
                     <th scope='col'>Department</th>
                     <th scope='col'>Allocated Budget</th>
-                    <th scope='col'>increase</th>
-                    <th scope='col'>Delete</th>
+                    <th scope='col'>increase by 10</th>
+                    <th scope='col'>Delete by 10</th>
                 </tr>
             </thead>
             <tbody>

@@ -11,7 +11,7 @@ const AllocationForm = (props) => {
     const submitEvent = () => {
         
         if (cost > remaining) {
-            alert("The value cannot exced remaining funds $"+remaining);
+            alert("The value cannot exced remaining funds £"+remaining);
             setCost("");
             return;
         }
@@ -56,7 +56,7 @@ const AllocationForm = (props) => {
                         <option defaultValue value="Add" name="Add">Add</option>
                 <option value="Reduce" name="Reduce">Reduce</option>
                   </select>
-                  <span style={{marginLeft: '2rem'}}>$</span>
+                  <span style={{marginLeft: '2rem'}}>£</span>
                     <input
                         required='required'
                         type='number'
